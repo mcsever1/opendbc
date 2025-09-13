@@ -1107,6 +1107,15 @@ FW_VERSIONS = {
       b'\xf1\x00NQ5 FR_CMR AT USA LHD 1.00 1.00 99211-P1040 663',
       b'\xf1\x00NQ5 FR_CMR AT USA LHD 1.00 1.00 99211-P1060 665',
       b'\xf1\x00NQ5 FR_CMR AT USA LHD 1.00 1.00 99211-P1070 690',
+      b'\xf1\x00NQ51.011.021.012551000HKP_NQ524_50509099211P1110',
+      b'\xf1\x00NQ5 FR_CMR AT USA LHD 1.01 1.01 99211-P1110 670',
+      b'\xf1\x00NQ5 FR_CMR AT USA LHD 1.01 1.01 99211-P1110 670',
+      b'\xf1\x00NQ5 FR_CMR AT USA LHD 1.01 1.02 99211-P1110 670',
+      b'\xf1\x00NQ5 FR_CMR AT USA LHD 1.02 1.01 99211-P1110 670',
+      b'\xf1\x00NQ5HFR_CMR AT USA LHD 1.01 1.01 99211-P1110 670',
+      b'\xf1\x00NQ5HFR_CMR AT USA LHD 1.01 1.01 99211-P1110 670',
+      b'\xf1\x00NQ5HFR_CMR AT USA LHD 1.01 1.02 99211-P1110 670',
+      b'\xf1\x00NQ5HFR_CMR AT USA LHD 1.02 1.01 99211-P1110 670',
     ],
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00NQ5__               1.00 1.02 99110-P1000         ',
@@ -1114,7 +1123,13 @@ FW_VERSIONS = {
       b'\xf1\x00NQ5__               1.00 1.03 99110-P1000         ',
       b'\xf1\x00NQ5__               1.01 1.03 99110-CH000         ',
       b'\xf1\x00NQ5__               1.01 1.03 99110-P1000         ',
+      b'\xf1\x00NQ5__               1.00 1.04 99110-CH100         ',
+      b'\xf1\x00NQ5__               1.00 1.04 99110CH100         ',
+      b'\xf1\x00NQ5__                 1.00 1.04 99110CH100         ',
     ],
+    (Ecu.combinationMeter, 0x7d6, None): [
+    b'\xf1\x00452',
+  ],
   },
   CAR.GENESIS_GV70_1ST_GEN: {
     (Ecu.fwdCamera, 0x7c4, None): [
